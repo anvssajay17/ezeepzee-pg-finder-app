@@ -1,0 +1,17 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  scroll-padding-top: 100px; /* adjust this to your navbar height */
+}
+
+#home {
+  scroll-margin-top: 80px; 
+}
+
+#contact{
+   scroll-padding-bottom: 80px;
+
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Citygrid.css'; // Use your CSS or copy existing styles here
+import './styles/Citygrid.css'; 
 
 const cities = [
   { name: 'Hyderabad', img: '/images/hydd.jpeg' },
@@ -10,7 +10,7 @@ const cities = [
 
 const Citygrid = () => {
   return (
-    <div className="main">
+    <div className="citygrid">
       <h1 className='city'>Top Cities for PG & Rentals</h1>
       <ul className="cards">
         {cities.map((city, index) => (
@@ -30,6 +30,7 @@ const Citygrid = () => {
           </li>
         ))}
       </ul>
+      <hr />
     </div>
   );
 };

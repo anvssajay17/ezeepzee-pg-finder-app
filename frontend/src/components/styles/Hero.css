@@ -5,9 +5,10 @@
     transform: translate(-50%, -50%);
 } */
 
-.main{
-    margin-top: 250px;
-    margin-bottom: -100px;
+.hero{
+    
+    margin-top: 180px;
+    margin-bottom: 100px;
 }
 .main-heading {
   color: rgba(17, 63, 103);
@@ -16,10 +17,12 @@
 
 .main-heading-primary {
   display: block;
-  font-size: 5.0rem;
+  font-size: 4.5rem;
+  text-align: center;
   font-weight: 400;
-  letter-spacing: 35px;
+  letter-spacing: 30px;
   animation: moveInLeft 1s ease-out;
+  
 }
 
 .main-heading-secondary {
@@ -28,6 +31,7 @@
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
+ 
   letter-spacing: 8px;
   /* letter-spacing: 31px; */
   /* color: hotpink; */

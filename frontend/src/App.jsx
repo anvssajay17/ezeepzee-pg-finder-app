@@ -1,18 +1,11 @@
-import React from 'react'
-import Navbar from './components/Navbar'
 
-import CityCardGrid from './components/Citygrid'
-import Hero from './components/Hero'
-import About from './components/About'
+import Homepage from "./pages/Homepage"
+
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
-
-      <CityCardGrid/>
-      <About/>
+    <Homepage/>
     </div>
   )
 }
