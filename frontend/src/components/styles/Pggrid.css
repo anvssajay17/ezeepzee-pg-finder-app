@@ -1,0 +1,140 @@
+/* Header Section */
+.pg-header {
+    text-align: center;
+    padding: 2.5rem;
+    margin-top: 30px;
+}
+
+.pg-main-title {
+    font-weight: bold;
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    font-family: 'Quicksand', serif;
+}
+
+.pg-subtitle {
+    font-size: 1.875rem;
+    font-family: 'Quicksand', serif;
+}
+
+/* Grid Section */
+.pg-grid-section {
+    width: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+    gap: 5rem 3.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .pg-grid-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .pg-grid-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Product Card */
+.pg-card {
+    width: 18rem;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 0.75rem;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+.pg-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.pg-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pg-card-image {
+    height: 20rem;
+    width: 18rem;
+    object-fit: cover;
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.pg-card-content {
+    padding: 1rem;
+    width: 18rem;
+}
+
+.pg-card-city {
+    color: #9ca3af;
+    margin-right: 0.75rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.pg-card-name {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.pg-card-details {
+    display: flex;
+    align-items: center;
+}
+
+.pg-card-phone {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: black;
+    cursor: auto;
+    margin: 0.75rem 0;
+    font-family: sans-serif;
+}
+
+.pg-card-icon {
+    margin-left: auto;
+}
+
+.pg-card-icon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+/* Credit Section */
+.pg-credit {
+    text-align: center;
+    padding: 5rem 2.5rem;
+}
+
+.pg-credit-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .pg-credit-text {
+        font-size: 2.25rem;
+    }
+}
+
+.pg-credit-link {
+    text-decoration: underline;
+    font-weight: 900;
+}

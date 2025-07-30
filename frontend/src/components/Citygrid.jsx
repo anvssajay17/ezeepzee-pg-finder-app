@@ -1,5 +1,6 @@
-import React from 'react';
+
 import './styles/Citygrid.css'; 
+import {Link}  from 'react-router-dom'
 
 const cities = [
   { name: 'Hyderabad', img: '/images/hydd.jpeg' },
@@ -24,7 +25,9 @@ const Citygrid = () => {
                 <p className="card_text">
                   Find top PGs, rentals, Hostels and places to stay in {city.name}.
                 </p>
-                <button className="btn card_btn">Search Pg</button>
+                <Link to ={`/pgs/${city.name.toLowerCase()}`} className="btn card_btn">
+                Search Pg
+                </Link>
               </div>
             </div>
           </li>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles/Navbar.css'; // make sure to create a separate CSS file
+import './styles/Navbar.css'; 
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -55,3 +55,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
