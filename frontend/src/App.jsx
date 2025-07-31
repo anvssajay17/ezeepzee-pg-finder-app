@@ -31,6 +31,8 @@ import Homepage from './pages/Homepage';
 import Listingpage from './pages/Listingpage';
 import ScrollToTop from './components/ScrollTop';
 
+import AddPgPage from './pages/AddPgPage';
+
 const App = () => {
   return (
     <Router>
@@ -39,6 +41,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/pgs/:cityName" element={<Listingpage />} />
+        <Route path="/addpg" element={<AddPgPage/>} />
       </Routes>
     </Router>
   );
