@@ -118,6 +118,11 @@
     "city": "Ahmedabad",
     "phone": "9797979797",
     "image": "/images/pg/pg21.jpeg"
+  },
+  {
+    "name": "jara",
+    "city": "Mumbai",
+    "phone": "09347919586",
+    "image": "/images/pg/pg19.jpeg"
   }
-
 ]

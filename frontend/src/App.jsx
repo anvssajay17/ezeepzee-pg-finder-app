@@ -30,8 +30,10 @@ import Homepage from './pages/Homepage';
 
 import Listingpage from './pages/Listingpage';
 import ScrollToTop from './components/ScrollTop';
+import ReviewPage from './pages/ReviewPage';
 
 import AddPgPage from './pages/AddPgPage';
+
 
 const App = () => {
   return (
@@ -42,6 +44,7 @@ const App = () => {
         <Route path="/" element={<Homepage />} />
         <Route path="/pgs/:cityName" element={<Listingpage />} />
         <Route path="/addpg" element={<AddPgPage/>} />
+        <Route path="/pgs/:cityName/:pgName/reviews" element={<ReviewPage />} />
       </Routes>
     </Router>
   );

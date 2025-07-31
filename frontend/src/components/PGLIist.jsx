@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 import '../components/styles/Pggrid.css';
 
@@ -58,6 +59,12 @@ const PGList = () => {
                   <span className="pg-card-city">{pg.city}</span>
                   <p className="pg-card-name">{pg.name}</p>
                   <p className="pg-card-phone">Ph: {pg.phone}</p>
+                   <Link
+                      to={`/pgs/${cityName}/${encodeURIComponent(pg.name)}/reviews`}
+                      className="pg-review-link"
+                    >
+                      See Reviews
+                    </Link>
                 </div>
               </a>
             </div>

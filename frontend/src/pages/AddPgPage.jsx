@@ -5,7 +5,7 @@ const AddPgPage = () => {
     <div>
      <ListNav/>
      
-     <div style={{ marginTop: "160px" }}>
+     <div style={{ marginTop: "150px" }}>
         <AddPgForm />
       </div>
      
