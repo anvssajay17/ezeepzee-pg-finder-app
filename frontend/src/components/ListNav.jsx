@@ -2,9 +2,6 @@ import { Link } from 'react-router-dom';
 import './styles/ListNav.css'
 
 
-
-import React from 'react'
-
 const ListNav = () => {
 
   console.log("ListNav rendered");

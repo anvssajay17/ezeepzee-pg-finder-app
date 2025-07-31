@@ -10,7 +10,7 @@
 .citygrid{
   max-width: 1200px;
   margin: 0 auto;
-  color: #272727;
+  color: #3a3a3a;
   font-family: 'Quicksand', serif;
   font-style: normal;
   font-weight: 400;
@@ -22,10 +22,10 @@
 .citygrid hr {
   border: none;
   height: 1px;
-  background-color: #ddd; /* Light gray line */
-  margin-top: 50px ; /* Spacing above and below */
-  width: 100%; /* Optional: full width */
-  opacity: 0.6; /* Slightly transparent for elegance */
+  background-color: #ddd; 
+  margin-top: 50px ; 
+  width: 100%; 
+  opacity: 0.6; 
 }
 
 

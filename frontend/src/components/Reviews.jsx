@@ -7,9 +7,8 @@ const ReviewsPage = () => {
   const [newReview, setNewReview] = useState('');
   const [reviews, setReviews] = useState([]);
   const [loading, setLoading] = useState(true);
-  const baseURL = 'http://localhost:8000'; // Update if hosted elsewhere
+  const baseURL = 'http://localhost:8000'; 
 
-  // Fetch reviews from backend
   useEffect(() => {
     const fetchReviews = async () => {
       try {

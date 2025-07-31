@@ -6,7 +6,7 @@
 }
 
 .pg-main-title {
-    font-weight: bold;
+    font-weight: 400;
     font-size: 2.25rem;
     margin-bottom: 1rem;
     font-family: 'Quicksand', serif;
@@ -14,6 +14,7 @@
 
 .pg-subtitle {
     font-size: 1.875rem;
+    font-weight: 400;
     font-family: 'Quicksand', serif;
 }
 
@@ -83,14 +84,15 @@
 
 .pg-card-name {
     font-size: 1.125rem;
-    font-weight: bold;
-    color: black;
+    font-weight: 300;
+    color: rgb(49, 49, 49);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
     text-transform: capitalize;
-    font-family: sans-serif;
+    font-family: 'Quicksand', serif;
+
 }
 
 .pg-card-details {
@@ -100,11 +102,12 @@
 
 .pg-card-phone {
     font-size: 1.125rem;
-    font-weight: 600;
-    color: black;
+    font-weight: 200;
+
+    color: rgb(74, 74, 74);
     cursor: auto;
     margin: 0.75rem 0;
-    font-family: sans-serif;
+    font-family: 'Quicksand', serif;
 }
 
 .pg-card-icon {
@@ -137,4 +140,9 @@
 .pg-credit-link {
     text-decoration: underline;
     font-weight: 900;
+}
+.pg-review-link{
+    text-align: center;
+    text-decoration: none;
+    color: #34699A;
 }

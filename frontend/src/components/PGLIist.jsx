@@ -74,7 +74,7 @@ const PGList = () => {
         <p className="pg-no-results">No PGs found in {cityName}.</p>
       )}
 
-      {/* Spinner Keyframes */}
+     
       <style>{`
         @keyframes spin {
           0% { transform: rotate(0deg); }
