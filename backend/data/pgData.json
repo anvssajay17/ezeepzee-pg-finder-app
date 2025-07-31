@@ -1,0 +1,25 @@
+[
+  { "name": "Blue Nest Residency", "city": "Hyderabad", "phone": "9876543210", "image": "/images/pg/pg1.jpeg" },
+  { "name": "Urban Hive PG", "city": "Hyderabad", "phone": "8765432109", "image": "/images/pg/pg2.jpeg" },
+  { "name": "Skyline Stay", "city": "Hyderabad", "phone": "7654321098", "image": "/images/pg/pg3.jpeg" },
+  { "name": "Lavender Living", "city": "Hyderabad", "phone": "9123456780", "image": "/images/pg/pg4.jpeg" },
+  { "name": "Elite Haven", "city": "Hyderabad", "phone": "9345678210", "image": "/images/pg/pg5.jpeg" },
+  { "name": "Maple Leaf PG", "city": "Hyderabad", "phone": "9988776655", "image": "/images/pg/pg6.jpeg" },
+  
+  { "name": "Coastal Comfort", "city": "Mumbai", "phone": "9876123450", "image": "/images/pg/pg7.jpeg" },
+  { "name": "SeaBreeze Suites", "city": "Mumbai", "phone": "8765432100", "image": "/images/pg/pg9.jpeg" },
+  { "name": "Sunset Base PG", "city": "Mumbai", "phone": "7654310982", "image": "/images/pg/pg10.jpeg" },
+  { "name": "Palm Nest Mumbai", "city": "Mumbai", "phone": "7890654321", "image": "/images/pg/pg11.jpeg" },
+  { "name": "Midtown Stays", "city": "Mumbai", "phone": "9988771122", "image": "/images/pg/pg12.jpeg" },
+
+  { "name": "Bayview Residency", "city": "Chennai", "phone": "9090909090", "image": "/images/pg/pg13.jpeg" },
+  { "name": "Serene Stay PG", "city": "Chennai", "phone": "9191919191", "image": "/images/pg/pg14.jpeg" },
+  { "name": "Coral Comfort", "city": "Chennai", "phone": "9292929292", "image": "/images/pg/pg15.jpeg" },
+  { "name": "Southern Lights PG", "city": "Chennai", "phone": "9393939393", "image": "/images/pg/pg16.jpeg" },
+
+  { "name": "Heritage Hostels", "city": "Ahmedabad", "phone": "9898989898", "image": "/images/pg/pg17.jpeg" },
+  { "name": "Navrang Nest", "city": "Ahmedabad", "phone": "9494949494", "image": "/images/pg/pg18.jpeg" },
+  { "name": "Sabarmati Stay", "city": "Ahmedabad", "phone": "9595959595", "image": "/images/pg/pg19.jpeg" },
+  { "name": "Golden Heritage PG", "city": "Ahmedabad", "phone": "9696969696", "image": "/images/pg/pg20.jpeg" },
+  { "name": "Greenwoods PG", "city": "Ahmedabad", "phone": "9797979797", "image": "/images/pg/pg21.jpeg" }
+]
